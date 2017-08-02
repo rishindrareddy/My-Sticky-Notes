@@ -1,0 +1,73 @@
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);
+@import url('https://fonts.googleapis.com/css?family=Chewy');
+
+body,
+html,
+div.board,
+div#react-container {
+  min-height: 800px;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+div.board {
+  background-color: 'brown';
+  width: 100%;
+  background: #FFFDD0;
+}
+
+div.note {
+  height: 150px;
+  width: 150px;
+  background: #FFFF99;
+  margin: 2px 0;
+  position: absolute;
+  cursor: -webkit-grab;
+  box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, .2);
+  overflow: hidden;
+}
+
+div.note:active {
+  cursor: -webkit-grabbing;
+}
+
+div.note p {
+  font-size: 22px;
+  font-family: 'Shadows Into Light', Arial;
+  margin: 2px 8px 10px 8px;
+  padding: 5px;
+}
+
+div.note:hover > span {
+  opacity: 1;
+}
+
+div.note > span {
+  position: absolute;
+  bottom: 2px;
+  left: 2px;
+  opacity: 0;
+  transition: opacity .25s linear;
+}
+
+div.note button {
+  margin: 2px;
+  text-align: left;
+  border: none;
+}
+
+div.note > textarea {
+  height: 75%;
+  background: rgba(255, 255, 255, .5);
+}
+
+.board > button {
+  position: fixed;
+  top: 5px;
+  right: 5px;
+  font-size: 1.5em;
+}
