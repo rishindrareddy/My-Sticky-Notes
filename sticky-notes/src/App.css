@@ -1,12 +1,12 @@
 @import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);
-@import url('https://fonts.googleapis.com/css?family=Chewy');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 body,
 html,
 div.board,
 div#react-container {
-  min-height: 800px;
-  overflow: hidden;
+  height: 100%;
+  overflow: auto;
 }
 
 body {
@@ -15,20 +15,20 @@ body {
 }
 
 div.board {
-  background-color: 'brown';
+  /*background-color: 'brown';*/
   width: 100%;
   background: #FFFDD0;
 }
 
 div.note {
-  height: 150px;
-  width: 150px;
+  height: 200px;
+  width: 200px;
   background: #FFFF99;
   margin: 2px 0;
   position: absolute;
   cursor: -webkit-grab;
   box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, .2);
-  overflow: hidden;
+  overflow: auto;
 }
 
 div.note:active {
@@ -54,11 +54,30 @@ div.note > span {
   transition: opacity .25s linear;
 }
 
+/*
 div.note button {
+  font-family: 'Open Sans', Arial;
   margin: 2px;
   text-align: left;
-  border: none;
+
+  background-color: white;
+  color: black;
+  border: 2px solid #e7e7e7;
 }
+*/
+
+div.note button {
+  font-family: 'Open Sans', Arial;
+  margin: 2px;
+  text-align: center;
+
+  background-color: #ffffff;
+  color: black;
+  border: 2px solid #e7e7e7;
+}
+
+div.note button:hover {background-color: #e7e7e7;}
+
 
 div.note > textarea {
   height: 75%;
@@ -70,4 +89,11 @@ div.note > textarea {
   top: 5px;
   right: 5px;
   font-size: 1.5em;
+  background-color: #ffffff;
+  color: black;
+  border: 2px solid #e7e7e7;
+}
+
+.board > button:hover{
+  background-color: #e7e7e7;
 }

@@ -48,11 +48,16 @@ var Note = React.createClass({
     return (
               <div className="note"
               style = {this.style}>
-                <p>{this.props.children}</p>
+
                   <span>
-                    <button onClick={this.edit}>Edit</button>
+                    <button onClick={this.edit}>Edit</button>&nbsp;
                     <button onClick={this.remove}>X</button>
                   </span>
+
+              <p>
+              {this.props.children}
+              </p>
+
               </div>)
   },
   render() {

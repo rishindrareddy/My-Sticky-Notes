@@ -1,0 +1,7 @@
+- localhost: 3000
+npm start
+
+-localhost:5000
+npm run build
+npm install -g serve
+serve -s build

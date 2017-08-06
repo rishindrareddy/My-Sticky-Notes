@@ -1,11 +1,12 @@
 @import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);
-@import url('https://fonts.googleapis.com/css?family=Chewy');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
 
 body,
 html,
 div.board,
 div#react-container {
-  min-height: 800px;
+  height: 100%;
   overflow: hidden;
 }
 
@@ -28,7 +29,7 @@ div.note {
   position: absolute;
   cursor: -webkit-grab;
   box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, .2);
-  overflow: hidden;
+  overflow: auto;
 }
 
 div.note:active {
@@ -37,7 +38,7 @@ div.note:active {
 
 div.note p {
   font-size: 22px;
-  font-family: 'Shadows Into Light', Arial;
+  font-family: 'Indie Flower';
   margin: 2px 8px 10px 8px;
   padding: 5px;
 }
@@ -55,6 +56,7 @@ div.note > span {
 }
 
 div.note button {
+  background: white;
   margin: 2px;
   text-align: left;
   border: none;
