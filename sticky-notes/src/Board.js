@@ -32,6 +32,17 @@ var Board = React.createClass({
             .catch(function(err) {
               console.log("Didn't connect to the API",err)
             })
+
+        // var text = fetch(url)
+        //             .then(results => results.json())
+        //             .catch(function(err) {
+        //               console.log("Didn't connect to the API",err)
+        //             })
+        //
+        // var result = text[0].split('. ')
+        //
+        // result.map(sentence => this.add(sentence))
+
       }
     },
     update(newText,id){
