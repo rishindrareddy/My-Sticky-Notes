@@ -1,8 +1,38 @@
-# My-Sticky-Notes-App
+# Sticky-Notes-App
 
-This is an application for writing down stick notes built using REACT framework. Please feel free to understand the structure and learn how things are done in REACT.
+Sticky Notes is a React JS App where users can create and organize sticky notes, to do's and lot more. 
+You can add/edit/delete notes. You can also place them anywhere you want by simply dragging it.
 
-Credits:
+## Table of Contents
 
-Special thanks to Eve Porcello for her amazing teaching, https://www.lynda.com/Eve-Porcello/1874244-1.html
- 
+1. Technology used 
+2. Prerequisites
+3. Installation
+4. Run
+
+### Technologies Used
+* [React JS](https://facebook.github.io/react/)
+* [React DOM](https://facebook.github.io/react/docs/react-dom.html)
+* [React Draggable](https://github.com/mzabriskie/react-draggable)
+* [Bacon Ipsum API](http://baconipsum.com)
+
+### Prerequisites
+
+1. Install [Node.js](https://nodejs.org/en/).
+
+2. Install these NPM packages globally
+
+'npm install -g bower gulp'
+
+### Installation
+
+Run following commands in a terminal, install all the latest packages if asked for different versions.
+
+'npm install'
+
+### Run Locally
+
+'npm run'
+
+'http://localhost:3000'
+
