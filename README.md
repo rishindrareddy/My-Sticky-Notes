@@ -1,6 +1,7 @@
 # Sticky-Notes-App
 
-Sticky Notes is a React JS App where users can create and organize sticky notes, to do's and lot more.
+Sticky Notes is a React JS App where users can create and organize sticky notes, to do's and lot more. 
+You can add/edit/delete notes. You can also place them anywhere you want by simply dragging it.
 
 ## Table of Contents
 
