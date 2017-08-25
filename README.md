@@ -6,10 +6,10 @@ You can add/edit/delete notes. You can also place them anywhere you want by simp
 #### Application URL : https://stick-notes.herokuapp.com/
 
 #
-![Screenshot](https://1drv.ms/i/s!AoG7VjwfCe08hvoVz2TRXXK5PpE_Og "How does the App look ?")
+![How does the App look ?](https://github.com/rishindrareddy/My-Sticky-Notes/blob/master/StickNotesCapture.PNG)
 
 #
-![Screenshot](https://1drv.ms/i/s!AoG7VjwfCe08hvoXAB_v-J1j62Gzig "Is it responsive ?")
+![Is it responsive ?](https://github.com/rishindrareddy/My-Sticky-Notes/blob/master/stickNotesMobile.jpeg )
 
 ## Table of Contents
 
