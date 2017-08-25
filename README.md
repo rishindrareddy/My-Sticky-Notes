@@ -3,6 +3,14 @@
 Sticky Notes is a React JS App where users can create and organize sticky notes, to do's and lot more. 
 You can add/edit/delete notes. You can also place them anywhere you want by simply dragging it.
 
+#### Application URL : https://stick-notes.herokuapp.com/
+
+#
+![Screenshot](https://1drv.ms/i/s!AoG7VjwfCe08hvoVz2TRXXK5PpE_Og "How does the App look ?")
+
+#
+![Screenshot](https://1drv.ms/i/s!AoG7VjwfCe08hvoXAB_v-J1j62Gzig "Is it responsive ?")
+
 ## Table of Contents
 
 1. Technology used 
