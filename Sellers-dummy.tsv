@@ -1,1 +1,3 @@
-budget_split_filter\tbudget\n{'vendor_id':{'eq':'seller_1'}}\t10000\n
+budget_split_filter budget
+{'vendor_id':{'eq':'seller_1'}} 10000
+{'vendor_id':{'eq':'seller_2'}} 20000
